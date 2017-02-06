@@ -1,0 +1,57 @@
+#Python Calculator
+
+#Variables
+true_loop = True
+restart = "NEW"
+
+#Main_Program()
+while true_loop == True:
+    first = float(intput("..."))
+    count = input("...")
+
+    if "*" == count:
+        second = float(intput("..."))
+        result = first * second
+        print (result)
+        restart_key = input("")
+        if "NEW" == restart_key:
+        trueloop = True
+
+    elif "/" == count:
+        second = float(intput("..."))
+        result = first + second
+        print (result)
+        restart_key = input("")
+        if "NEW" == restart_key:
+        trueloop = True
+    
+    elif "-" == count:
+        second = float(intput("..."))
+        result = first + second
+        print (result)
+        restart_key = input("")
+        if "NEW" == restart_key:
+        trueloop = True
+    
+    elif "+" == count:
+        second = float(intput("..."))
+        result = first + second
+        print (result)
+        restart_key = input("")
+        if "NEW" == restart_key:
+        trueloop = True
+    
+    else:
+        print(+ count + "is not recognized")
+
+
+
+
+
+
+
+
+
+
+
+
